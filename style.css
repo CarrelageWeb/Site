@@ -1,0 +1,170 @@
+/* ======= Style général ======= */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fdfcf8; /* fond clair */
+    color: #1c1c1c;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======= Barre de navigation ======= */
+nav {
+    background-color: #1c1c1c; /* sombre */
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+nav button {
+    background-color: #fdfcf8;
+    color: #1c1c1c;
+    border: 2px solid #1c1c1c;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background-color: #1c1c1c;
+    color: #fdfcf8;
+    border-color: #f5c967; /* accent doré */
+}
+
+/* ======= Titres ======= */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 3em;
+    color: #1c1c1c;
+}
+
+h2, h3 {
+    color: #1c1c1c;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1c1c1c;
+    padding-bottom: 5px;
+    width: 50%;           /* ligne plus courte */
+    margin-left: auto;    /* centre la ligne */
+    margin-right: auto;   /* centre la ligne */
+    text-align: center;   /* texte centré */
+}
+
+/* ======= Sections ======= */
+section {
+    background-color: #f5f5f5;
+    padding: 30px 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ======= Paragraphes et listes ======= */
+p, ul {
+    line-height: 1.7;
+    font-size: 1.1em;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centre horizontalement */
+    font-size: 1.2em;
+    gap: 5px; /* réduit l’écart vertical */
+}
+
+.contact-info p {
+    margin: 0; /* supprime les marges par défaut des <p> */
+}
+
+/* ======= Boutons contact ======= */
+.contact-info button {
+    background-color: #1c1c1c;
+    color: #fdfcf8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-info button:hover {
+    background-color: #f5c967; /* doré */
+    color: #1c1c1c;
+}
+
+/* ======= Footer ======= */
+footer {
+    text-align: center;
+    padding: 30px 20px; /* plus de padding vertical */
+    background-color: #1c1c1c;
+    color: #fdfcf8;
+    margin-top: 60px; /* espace entre le contenu et le footer */
+    font-size: 0.9em;
+}
+
+
+/* ======= Sections centrées ======= */
+section {
+    background-color: #f5f5f5;
+    padding: 40px 30px;
+    margin: 40px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center; /* tout le texte centré */
+}
+
+/* Paragraphes centrés */
+p, ul {
+    line-height: 1.7;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Liste centrée */
+ul {
+    list-style: none; /* enlève les puces */
+    padding: 0;
+}
+
+ul li::before {
+    content: "• "; /* puce personnalisée */
+    color: #1c1c1c;
+}
+
+/* Contact centré */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centre horizontalement */
+    font-size: 1.2em;
+    gap: 15px;
+}
+
+/* Boutons centrés */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Footer centré */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    color: #fdfcf8;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+
